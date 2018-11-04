@@ -1,12 +1,13 @@
 {
-  "name": "crel",
+  "name": "@jimpick/crel",
   "description": "A small, simple, and fast DOM creation utility",
   "author": "Kory Nunn <knunn187@gmail.com>",
   "tags": [
     "DOM"
   ],
-  "version": "3.1.0",
+  "version": "3.1.0-1",
   "main": "crel.js",
+  "module": "crel.js",
   "dependencies": {},
   "devDependencies": {
     "browserify": "^14.4.0",
