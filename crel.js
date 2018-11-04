@@ -34,15 +34,7 @@
 
 */
 
-export default (function (root, factory) {
-    if (typeof exports === 'object') {
-        // module.exports = factory();
-    } else if (typeof define === 'function' && define.amd) {
-        define(factory);
-    } else {
-        root.crel = factory();
-    }
-}(this, function () {
+export default function () {
     var fn = 'function',
         obj = 'object',
         nodeType = 'nodeType',
@@ -163,4 +155,4 @@ export default (function (root, factory) {
     }
 
     return crel;
-}));
+}
